@@ -118,11 +118,11 @@ color: #ababba;
 .tab-titles
 {
     display:flex;
-    margin: 20px 0px 40px;
+    margin: 25px 0px 50px;
 }
 .tab-link
 {
- margin-right: 50px;
+ margin-right: 35px;
  font-size: 18px;
  font-weight: 500;
  cursor:pointer;
@@ -306,7 +306,7 @@ nav .fa-solid
     #header{
         background-image: url(Image/10001.jpg);
     }
-    .container{ padding: 20px 30px;}
+    .container{ padding: 20px 10px;}
     .header-text
     {
      margin-top: 100%;
@@ -361,9 +361,12 @@ nav .fa-solid
     .about-col-1{
         margin-bottom: 30px;
     }
-    .about-col-2{font-size:14px;}
+    .about-col-2{font-size:14px;
+        margin-top:-90px;
+    }/*---------------------------------**/
     .about-col-2  p{
-        padding-top:20px;
+        padding-top:15px;
+        max-width:300px;
     }
     .tab-links{
         font-size: 16px;
@@ -379,7 +382,12 @@ nav .fa-solid
         flex-basis: 90%;
     }
 }
+@media only screen and (min-width:420px) {
 
+
+
+
+}
 
 
 
