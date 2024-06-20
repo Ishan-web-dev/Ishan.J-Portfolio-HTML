@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4dbd41e393.js" crossorigin="anonymous"></script>
+    <title>Ishan.J---Portfolio---</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2>Ishan.J</h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" id="Home">
+                <p>Front-End Developer</p>
+                <h1>Hii Guys, I'm <span>Ishan</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-----About Section--begin------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/ishanjoshi.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hi, I'm Ishan, a passionate web designer and front-end developer.
+                       I specialize in creating beautiful, responsive, and user-friendly website interfaces.
+                        With a strong foundation in HTML, CSS, JavaScript, I bring ideas to life on the web.
+                        Welcome to My Portfolio, <br>
+                       👨‍💻 Currently Pursuing Computer Application at  <b>S.S. Jain Subodh P.G. College</b>. <br>
+                       📚 Proficient in HTML, CSS, JavaScript, Tailwind CSS. <br>
+                       💼 Skilled in Front-End Frameworks <br>
+                    </p>
+                     
+                    <div class="tab-titles">
+                        <p class="tab-link active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"><!---SkillSet-->
+                        <ul>
+                            <li><span>Web Designing</span><br>Creating visually appealing and functional websites, focusing on layout, user experience.</li>
+                            <li><span>Languages</span><br>HTML, CSS and JavaScript</li>
+                            <li><span>Other Tools</span><br>Bootestrap , TailWind CSS, GitHub. </li>
+                            <li><span>Search Engine Optimization</span><br>Conducted keyword research. <br>
+                                Performed <b>on-page</b> optimizations, page titles, internal linking. to maximize SEO performance. <br>
+                                Reviewed HTML code, images, CSS style sheets. for accuracy and optimization purposes.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience"><!---Experience-->
+                        <ul>
+                            <li><span>Leads power Inc</span><br><b>Data Process Executive</b><br> Oct 2023 - Jan 2024</li>
+                            <li><span>Zippy Infotech</span><br><b>SEO Executive Intern</b><br>Jan 2024 - Mar 2024 </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education"><!---Education-->
+                        <ul>
+                            <li><span>12th passed (2021)</span><br>Rajasthan Board of Examination</li>
+                            <li><span>Web Designing Certificate </span><br>Samyak Institute Of Computers</li>
+                            <li><span>Bachlor's Of Computer Application</span><br>S.S.Jain Subodh (P.G.) Collage (2nd Year Student)</li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----About Section--Over------>
+    <!--Services Section---start-->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Services </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I specialize in creating beautiful, responsive, and user-friendly website interfaces.
+                        Creating visually appealing and functional websites, focusing on layout, user experience And SEO friendly.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>Figma Design</h2>
+                    <p>Figma is a powerful web-based design tool used by designers to create user interfaces, prototypes, and collaborate in real-time. It has become a popular choice for web design due to its versatility, ease of use, and collaborative features.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h2>SEO Practices</h2>
+                    <p>Search Engine Optimization (SEO) is the practice of optimizing your website to rank higher on search engine results pages (SERPs). This involves improving the site's visibility to attract more organic (non-paid) traffic. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---Services Section Over-->
+<!---Contact Section Start-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Joshiishaan86@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91-728X-XXX-XXX</p>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/ishaan.joshi.52056/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                   <a href="www.linkedin.com/in/ishan-linkdin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                   <a href="https://github.com/Ishan-web-dev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                   <a href="https://twitter.com/IshanJoshi86" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="Image/my-cv.pdf" download class="btn btn2">Download My CV</a>
+            </div>
+            <div class="contact-right">
+                <form id="form" method="POST">
+                    <input type="hidden" name="access_key" value="0b923498-0e4c-4786-8ce9-197d612f6ac8">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" id="6" placeholder="Your Message"></textarea>
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <div id="result"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Ishan.J Make With <i class="fa-solid fa-file-code"></i></i>  HTML,JAVASCRIPT.</p>
+    </div>
+</div>
+
+
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="App.js"></script>
+</body>
+</html>
